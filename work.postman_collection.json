@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "567963c5-0a82-4bef-afb0-486b2392c070",
+		"name": "工作",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12658089"
+	},
+	"item": [
+		{
+			"name": "加班",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://boss.ovopark.com/shopweb-support/training/open/V2.0/wdzOvertime?userName=fanhao",
+					"protocol": "http",
+					"host": [
+						"boss",
+						"ovopark",
+						"com"
+					],
+					"path": [
+						"shopweb-support",
+						"training",
+						"open",
+						"V2.0",
+						"wdzOvertime"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "fanhao"
+						},
+						{
+							"key": "userName",
+							"value": "lusonghe",
+							"disabled": true
+						},
+						{
+							"key": "userName",
+							"value": "linanjie",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
